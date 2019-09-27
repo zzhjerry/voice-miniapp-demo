@@ -1,0 +1,15 @@
+<view>
+  <view id="container" class="container">
+    <view class="header">
+      <view class="title">麦当劳点餐</view>
+    </view>
+    <view class="dish-item" a:for="{{ dishes }}">
+      <view>{{ item.name }}</view>
+      <view class="dish-cost">
+        <view>x {{ item.amount }}</view>
+        <view>{{ item.totalCost }}元</view>
+      </view>
+    </view>
+    <!-- <button size="default" type="primary" onTap="navigate">test navigation</button> -->
+  </view>
+</view>

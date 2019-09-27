@@ -1,0 +1,10 @@
+{
+  "skill": [
+    {
+      "commands": [
+        "order"
+      ],
+      "onVoice": "order(dish, amount)"
+    }
+  ]
+}

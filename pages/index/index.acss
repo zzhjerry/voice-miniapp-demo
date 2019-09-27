@@ -1,0 +1,50 @@
+.container {
+  box-sizing: border-box;
+  position: relative;
+  width: 1024px;
+  height: 600px;
+  /* border: 1px solid red; */
+  background-color: #010610;
+  overflow: auto;
+}
+
+.dish-item {
+  border-radius: 8px;
+  background-color: #24272D;
+  font-size: 28px;
+  margin: 0px 50px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  color: white;
+  justify-content: space-between;
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+.dish-cost {
+  display: flex;
+  align-items: center;
+  width: 150px;
+  justify-content: space-between;
+}
+
+.header {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  padding-top: 36px;
+  padding-bottom: 24px;
+  margin-left: 168px;
+}
+
+.icon {
+  width: 44px;
+  height: 44px;
+  margin-right: 20px;
+}
+
+.title {
+  font-size: 24px;
+  color: white;
+}

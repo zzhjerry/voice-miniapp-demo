@@ -1,0 +1,18 @@
+{
+  "skill": [
+    {
+      "command": "order",
+      "voice": [
+        "来@{amount:Number}份@{dish:String}",
+        "要@{amount:Number}份@{dish:String}",
+        "加@{amount:Number}份@{dish:String}",
+        "来@{amount:Number}个@{dish:String}",
+        "要@{amount:Number}个@{dish:String}",
+        "加@{amount:Number}个@{dish:String}",
+        "来@{amount:Number}杯@{dish:String}",
+        "要@{amount:Number}杯@{dish:String}",
+        "加@{amount:Number}杯@{dish:String}"
+      ]
+    }
+  ]
+}
